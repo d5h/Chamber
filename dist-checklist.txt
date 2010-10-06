@@ -1,0 +1,10 @@
+
+	Make sure the following things are up to date
+	or done before doing a `make distcheck':
+
+	o borland.mk
+	o help.c
+	o usage.c
+	o BUGS
+	o make pretty
+	o make checkin

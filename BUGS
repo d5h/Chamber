@@ -1,0 +1,14 @@
+
+	Bugs that I know about but haven't fixed yet:
+
+	o A bug which may throw the game into an infinite loop,
+	  freezing it, will occur when some object is "squeezed"
+	  between two others. (Such as a ball between the paddle
+	  and a wall. This actually does occur occasionally in
+	  real gameplay, although it most likely results in a
+	  massive increase in ball speed and score, rather than
+	  a freeze. With the help of a debugger, the case where
+	  the game actually freezes can be constructed. This can
+	  be done by placing a ball between two other balls, or a
+	  ball between a wall and the paddle.)
+
